@@ -1,0 +1,42 @@
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+      background: #0e0e0e;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+
+    .card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 340px;
+      padding: 30px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #e0f7fa;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.8em;
+    }
+
+    .card p {
+      font-size: 1em;
+    }
